@@ -1,0 +1,19 @@
+.todoCompleted__list {
+	display: flex;
+	align-items: center;
+}
+
+.fa-check-square {
+	color: green;
+	font-size: 20px;
+}
+
+.todoCompleted__list > li {
+	text-decoration: line-through;
+}
+
+.todoCompleted__trash {
+	color: red;
+	font-size: 20px;
+	text-decoration: none !important;
+}

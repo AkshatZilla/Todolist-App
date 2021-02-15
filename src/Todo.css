@@ -1,0 +1,19 @@
+.todo__list {
+	display: flex;
+	align-items: center;
+}
+
+.fa-trash {
+	color: red;
+	font-size: 20px;
+}
+
+.fa-check {
+	color: lightgreen;
+	font-size: 20px;
+}
+
+.todo__listCompleted {
+	opacity: 50%;
+	text-decoration: line;
+}
